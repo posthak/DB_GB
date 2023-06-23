@@ -39,8 +39,6 @@ amount decimal,
 orderstatus VARCHAR(100) NOT NULL
 );
 
-ALTER TABLE orders MODIFY employeeid VARCHAR(10) NOT NULL;
-
 INSERT INTO orders (`employeeid`, `amount`, `orderstatus`) 
 VALUES 
 ('e03', '15.00','OPEN'),
